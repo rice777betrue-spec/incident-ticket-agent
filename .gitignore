@@ -1,0 +1,27 @@
+# Local environments and caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.langgraph_api/
+# Credentials and runtime data
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+data/
+reports/
+*.log
+*.sqlite*
+*.db
+# Excluded personal / learning material
+studio-learning/
+minicpm5-nightlight/
+publish/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
