@@ -69,7 +69,7 @@ py -3.13 -m venv .venv-graph
 
 ## 启动正式 Agent
 
-先启动自己配置的模型反代，再在仓库根目录运行：
+先启动自己配置的模型，再在仓库根目录运行：
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File .\start-agent-studio.ps1 -AskKey -Port 2025
